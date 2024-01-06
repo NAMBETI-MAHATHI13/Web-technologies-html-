@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deactivation Form</title>
+    <style>
+        body{
+            background-color: rgb(200, 193, 183);
+        }
+        .main{
+            align-items: center;
+            border: 2px solid rgb(red );
+            border-radius: 9 px;
+            padding-bottom: 50px;
+            color:rgb(17, 17, 15);
+        }
+        .submit{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form action="">
+            <h2 align="center">Deactivation Form</h2>
+            <fieldset>
+                <label for="username">Your Instagram username:</label><br>
+                <input type="text" size="30" required>
+            <div>
+                <label for="email">Your email address:</label><br>
+                   <input type="text" size="30" required>
+            </div>   
+            <div>        
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" required minlength="6" size="30"><br><br>
+            </div>  
+            <div>
+                <label for="number">Your mobile number:</label><br>
+                <input type="text" size="30">
+            </div><br>
+            <label for="comment">please let us know why you are appealing the decision to permanently deactivate this account:</label>
+            <div>
+                <textarea  id="comment" cols="30" rows="5" name="comment">
+                </textarea>
+            </div>
+            <input type="submit" id="submit" value="send" style="width: 150px;">
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
